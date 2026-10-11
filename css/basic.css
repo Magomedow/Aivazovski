@@ -6,3 +6,20 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-main);
 }
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
