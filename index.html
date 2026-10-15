@@ -19,7 +19,7 @@
             <nav class="nav" aria-label="header navigation">
                 <ul class="nav-list" aria-label="header navigation list">
                     <li>
-                        <a href="#home" class="nav-link" aria-label="link to home" >Home</a>
+                        <a href="#home" class="nav-link" aria-label="link to home">Home</a>
                     </li>
                     <li>
                         <a href="#about" class="nav-link" aria-label="link to about">About</a>
@@ -37,6 +37,42 @@
             </nav>
         </div>
     </header>
+
+    <div class="mobile-navigation" aria-label="mobile-navigation">
+        <label for="toggler-id" aria-label="open close mobile-navigation menu">
+            <svg class="mobile-navigation-burger" aria-label="burger open icon">
+                <use href="assets/sprites.svg#open"></use>
+            </svg>
+        </label>
+        <input class="mobile-navigation-togler" type="checkbox" id="toggler-id">
+
+
+        <nav class="mobile-navigation-menu" aria-label="mobile navigation">
+            <ul class="mobile-navigation-list" aria-label="mobule navigation list">
+                <li>
+                    <a href="#home" class="mobile-navigation-link" aria-label="link to home">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="mobile-navigation-link" aria-label="link to about">About</a>
+                </li>
+                <li>
+                    <a href="#history" class="mobile-navigation-link" aria-label="link to history">History</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#contacts" class="mobile-navigation-link" aria-label="link to contacts">Contacts</a>
+                </li>
+            </ul>
+
+            <label for="toggler-id" class="mobile-navigation-cross" aria-label="open close mobile-navigation menu">
+                <svg class="mobile-navigation-close" aria-label="burger close icon">
+                    <use href="assets/sprites.svg#close"></use>
+                </svg>
+            </label>
+        </nav>
+    </div>
 
     <main aria-label="main">
         <section class="home" aria-label="home section" id="home">
@@ -93,17 +129,10 @@
             </div>
         </section>
     </main>
-
-
-
-
     <footer class="contacts" aria-label="contacts section" id="contacts">
-         <div class="container">
+        <div class="container">
             <h2 class="contacts-title">Contacts</h2>
-            <button class="contacts-button">
                 <a href="#" class="button-link">ayvazovskiy</a>
-            </button>
-
             <address class="sociales" aria-label="social icon">
                 <a href="#" target="_blank" aria-label="link to youtube">
                     <svg class="social-icon" aria-label="youtube icon">
@@ -129,12 +158,8 @@
             <p class="contacts-info" aria-label="contacts info">
                 More works you can see in these social networks
             </p>
-         </div>
+        </div>
     </footer>
-
-
-
-
 </body>
 
 </html>
